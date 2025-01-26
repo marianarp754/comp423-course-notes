@@ -91,7 +91,7 @@
         ./main
         ```
     !!! note Note
-        //EXAPLIN THE DIFFERENCE BETWEEN BUILD AND RUN
+        The `go build` command compiles Go code into a standalone binary executable, similar to how `gcc` compiles C code in COMP211. This binary can run independently, making it ideal for production use. On the other hand, `go run` compiles and executes the code in one step without creating a reusable binary, making it more convenient for quick testing and development. 
 
 
 6. **The Program's Requirement is that it Prints "Hello COMP423" Out to Standard Output**
