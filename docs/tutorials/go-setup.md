@@ -34,8 +34,8 @@
         ```
         git remote add origin https://github.com/<username>/comp423-go-hello-world.git
         ```
-        !!! note Note
-            Check that your default branch is named `main` by typing `git branch` into the terminal. If it is not, rename it using `git branch -M main`.
+    !!! note Note
+        Check that your default branch is named `main` by typing `git branch` into the terminal. If it is not, rename it using `git branch -M main`.
     - Push your local commits to GitHub:
         ```
         git push -u origin main
@@ -61,8 +61,8 @@
         }
         ```
     - Open the Command Palette (Control+Shift+P) and run Dev Containers: Reopen in Container.
-        !!! note Note
-            To check if you have successfully reopened your project in a Dev Container, open a terminal in VSCode and run `go version` to check that your dev container is running a recent version of Go. 
+    !!! note Note
+        To check if you have successfully reopened your project in a Dev Container, open a terminal in VSCode and run `go version` to check that your dev container is running a recent version of Go. 
 
 
 4. **Dev Container Configuration File Explanations**
