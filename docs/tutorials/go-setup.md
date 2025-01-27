@@ -6,10 +6,8 @@
 1. **Prerequisites**
     - Install Git, Visual Studio Code (VSCode), and Docker.
     - Create a GitHub account.
-    - Ensure the Dev Containers VSCode plugin is installed.
-    - Ensure the Go VSCode Plugin (Made by the Go Team at Google) is installed.
-    - Install the Go programming language. 
-    - To verify Go is installed, run `go version` in your terminal.
+    - Ensure the `Dev Containers` VSCode plugin is installed.
+    - Ensure the `Go` VSCode Plugin (Made by the Go Team at Google) is installed.
 
 
 2. **Instructions for initializing a new Git repository**
@@ -66,9 +64,10 @@
 
 
 4. **Dev Container Configuration File Explanations**
-    - Base Image: This is a pre-built container with all Go dependencies installed
-    - VSCode Plugins: Automatically installs and enables features like autocompletion and debugging.
-    - Git Integration: Manage version control efficiently
+    - The devcontainer.json file configures your development environment. In this example:
+        - name: provides a descriptive name for your dev container
+        - image: specifies the Docker image to use
+        - customizations: configures VS Code by adding useful extensions 
 
 
 5. **Create and Run a "Hello COMP423" Program**
@@ -96,3 +95,9 @@
 
 6. **The Program's Requirement is that it Prints "Hello COMP423" Out to Standard Output**
     - The program should output the text `"Hello COMP423"` to the terminal when executed.
+    - Once your program executes successfully, push your finished product to GitHub. 
+        ```
+        git add main.go
+        git commit -m "My first Go Hello World Program"
+        git push -u origin main
+        ```
