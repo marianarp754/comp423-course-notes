@@ -34,8 +34,8 @@
         ```
         git remote add origin https://github.com/<username>/comp423-go-hello-world.git
         ```
-        !!! note Note
-            Check that your default branch is named `main` by typing `git branch` into the terminal. If it is not, rename it using `git branch -M main`.
+    !!! note Note
+        Check that your default branch is named `main` by typing `git branch` into the terminal. If it is not, rename it using `git branch -M main`.
     - Push your local commits to GitHub:
         ```
         git push -u origin main
@@ -61,8 +61,8 @@
         }
         ```
     - Open the Command Palette (Control+Shift+P) and run Dev Containers: Reopen in Container.
-        !!! note Note
-            To check if you have successfully reopened your project in a Dev Container, open a terminal in VSCode and run `go version` to check that your dev container is running a recent version of Go. 
+    !!! note Note
+        To check if you have successfully reopened your project in a Dev Container, open a terminal in VSCode and run `go version` to check that your dev container is running a recent version of Go. 
 
 
 4. **Dev Container Configuration File Explanations**
@@ -91,7 +91,7 @@
         ./main
         ```
     !!! note Note
-        //EXAPLIN THE DIFFERENCE BETWEEN BUILD AND RUN
+        The `go build` command compiles Go code into a standalone binary executable, similar to how `gcc` compiles C code in COMP211. This binary can run independently, making it ideal for production use. On the other hand, `go run` compiles and executes the code in one step without creating a reusable binary, making it more convenient for quick testing and development. 
 
 
 6. **The Program's Requirement is that it Prints "Hello COMP423" Out to Standard Output**
