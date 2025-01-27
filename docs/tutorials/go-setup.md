@@ -24,10 +24,11 @@
         git commit -m "Initial commit with README"
         ```
     - Now, navigate to your browser and log into your GitHub account. 
-    - Create a new repository called `comp423-go-hello-world` with a description that says:
-        ```
-        Getting started with Go. 
-        ```
+    - Create a new repository with the following details:
+        - Name: comp423-go-hello-world
+        - Description: "Getting started with Go."
+        - Visibility: Public
+        - Leave the `Add a README file` unchecked.
     - Navigate back to your terminal and add your GitHub `comp423-go-hello-world` repository as a remote repository. 
         ```
         git remote add origin https://github.com/<username>/comp423-go-hello-world.git
@@ -41,7 +42,7 @@
 
 
 3. **Instructions for Creating a New Dev Container Project for Go**   
-    - Create a `.devcontainer` directory in your `go-tutorial` directory.
+    - In your terminal, create a `.devcontainer` directory in your `go-tutorial` directory.
         ```
         mkdir .devcontainer
         ```    
@@ -71,7 +72,7 @@
 
 
 5. **Create and Run a "Hello COMP423" Program**
-    - Create a `main.go` file in your `go-tutorial` directory that includes:
+    - In VSCode, create a `main.go` file in your `go-tutorial` directory that includes:
         ```
         package main
     
@@ -80,11 +81,11 @@
             fmt.Println("Hello COMP423")
         }
         ```
-    - Run Go
+    - In your terminal in VSCode, run Go:
         ```
         go run main.go
         ```
-    - Build the Program
+    - Then, build the Program:
         ```
         go build main.go
         ./main
