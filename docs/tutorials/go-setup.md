@@ -98,7 +98,7 @@
     - The program should output the text `"Hello COMP423"` to the terminal when executed.
     - Once your program executes successfully, push your finished product to GitHub. 
         ```
-        git add main.go
+        git add .
         git commit -m "My first Go Hello World Program"
         git push -u origin main
         ```
